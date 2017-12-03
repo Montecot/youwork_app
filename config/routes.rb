@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/Apropos'
+
   get 'pages/Landing_Page_Candidat'
 
   get 'pages/Inscription'
